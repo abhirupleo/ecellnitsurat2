@@ -1,0 +1,226 @@
+body{
+	font-family: 'Raleway', sans-serif;
+	font-weight:600;
+	background:white;
+}
+h2{
+	color:#284B8B;
+	font-size:30px;
+}
+p{
+	font-size:20px;
+	text-align:justify;
+}
+hr{
+	border:solid rgba(0,0,0,0.2) 1px;
+}
+.btn{
+	background:#08C;
+	border-radius:5px;
+	text-align:center;
+	height:5vh;
+}
+.btn h4{
+	font-family: 'Raleway', sans-serif;
+	font-weight:600;
+	color:white;
+	opacity:0.7;
+	padding:5px;
+}
+.btn h4:hover{
+	cursor:pointer;
+	opacity:1;
+}
+.fixed{
+	position:fixed;
+	width:110%;
+	top:0;
+	left:0;
+	z-index:99;
+	transition: all 0.3s ease-in-out 0s;
+}
+.connect{
+	background:#F5F5F5;
+}
+.menubar{
+	background:white;
+	font-family: 'Raleway', sans-serif;
+	font-weight:800;
+	border-bottom:solid #D6D6D6 2px;
+}
+.menubar img{
+	width:60px;
+}
+.hamburger{
+	display:none;
+}
+.menu{
+	font-size:25px;
+	padding:10px;
+	transition: all 0.3s ease-in-out 0s;
+}
+.menu ul {
+	list-style:none;
+}
+.menu li{
+	display:inline-block;
+	letter-spacing:2px;
+}
+.menu a:hover{
+	transition: all 0.3s ease-in-out 0s;
+	text-decoration:none;
+	color:black;
+}
+.main{
+	height:78vh;
+	position:relative;
+	text-align:center;
+	overflow:hidden;
+}
+.main .backimage{
+	width:100%;
+	height:150%;
+	position:relative;
+	z-index:-2;
+}
+.main .highlighter{
+	width:100%;
+	height:80%;
+	opacity:0.7;
+	position:absolute;
+	left:0;
+}
+.main .heading{
+	font-family: 'Raleway', sans-serif;
+	font-weight:500;
+	position:absolute;
+	top:25%;
+	z-index:4;
+	font-size:80px;
+	color:#284B8B;
+}
+.update{
+	font-family: 'Raleway', sans-serif;
+	font-weight:600;
+	background-color:#FAFAFA;
+	font-size:30px;
+	padding:10px;
+}
+.update .btn h4{
+	padding:0;
+	margin-top:5px;
+}
+.session{
+	font-family: 'Raleway', sans-serif;
+	font-weight:600;
+	background-color:#F5F5F5;
+	border-radius:15px;
+	margin-top:5%;
+}
+.session p{
+	font-family: 'Open Sans', sans-serif;
+	font-weight:300;
+}
+.session .btn{
+	width:50%;
+	margin-left:25%;
+	margin-bottom:5%;
+}
+.team{
+	margin-top:2%;
+	margin-left:14%;
+}
+.interview p{
+	font-family: 'Open Sans', sans-serif;
+	font-weight:300;
+	font-size:20px;
+	opacity:0.8;
+}
+.inteview .btn{
+	width:50%;
+	margin-left:25%;
+	margin-bottom:5%;
+}
+.events{
+	margin:5% 0;
+	background:#F5F5F5;
+	width:100%;
+}
+.events .seminars p{
+	font-family: 'Open Sans', sans-serif;
+	font-weight:300;
+	font-size:18px;
+}
+.seminars .btn{
+	font-size:20px;
+	padding:5px;
+	margin-top:4%;
+	}
+.seminars .btn h4{
+	margin-top:-1%;
+}
+.footer{
+	font-family: 'Open Sans', sans-serif;
+	font-weight:600;
+	height:25vh;
+	margin-top:5%;
+	background:black;
+	color:white;
+}
+.footer .footerpos{
+	margin-top:2.5%;
+}
+.footer .footerpos h6{
+	line-height:30px;
+	font-size:18px;
+}
+.footer .footerpos h5{
+	line-height:30px;
+	font-size:16px;
+}
+.footer .footerpos a:hover{
+	text-decoration:none;
+	color:white;
+}
+.fa-heart{
+	color:red;	
+}
+@media (max-width: 992px){
+	.seminars .btn{
+		margin-top:0.5%;
+	}
+	.menu{
+		font-size:15px;
+	}
+}	
+@media (max-width: 650px){
+	.menu{
+		font-size:12px;
+	}
+	.main{
+		height:60vh;
+	}
+	.main .heading{
+		margin-top:30%;
+		font-size:40px;
+	}
+	.main .highlighter{
+		margin-top:15%;
+	}
+	.team{
+		margin: 5% 8%;
+	}
+	.session{
+		padding:15px;
+		background:#F5F5F5;
+	}
+	.events{
+		background:#F5F5F5;
+	}
+	.seminars p{
+		display:none;
+	}
+	.footer{
+		height:40vh;
+	}
+}
